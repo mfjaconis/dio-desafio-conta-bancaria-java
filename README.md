@@ -1,18 +1,46 @@
-## Getting Started
+# DIO - Desafio Conta Bancária em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte de um desafio proposto pela Digital Innovation One (DIO) para criar uma aplicação em Java que simula o funcionamento básico de contas bancárias. O objetivo do desafio é consolidar conceitos de programação orientada a objetos (POO), como herança, encapsulamento e polimorfismo.
 
-## Folder Structure
+## 🚀 Tecnologias Utilizadas
 
-The workspace contains two folders by default, where:
+- **Java**: Linguagem de programação principal.
+- **JDK 11+**: Recomendado para rodar o projeto.
+- **IDE de sua preferência** (IntelliJ, Eclipse, VS Code, etc.).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🌟 Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Criação de contas bancárias:
+  - Conta Corrente
+  - Conta Poupança
+- Operações básicas:
+  - Depósito
+  - Saque
+  - Transferência entre contas
+- Visualização de saldo e dados da conta.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## ⚙️ Como Executar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Pré-requisitos
+
+Certifique-se de ter o Java instalado em sua máquina:
+- [JDK 11+](https://www.oracle.com/java/technologies/javase-downloads.html)
+
+### Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mfjaconis/dio-desafio-conta-bancaria-java.git
+   cd dio-desafio-conta-bancaria-java
+
+2. Clone o repositório:
+   ```bash
+   javac src/Main.java
+
+3.Execute o projeto:
+  ```bash
+  java -cp src Main
+
+
+
